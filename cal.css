@@ -1,0 +1,58 @@
+.container{
+    width : 100vw;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+}
+.cal form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) inset, 5px 5px 15px rgba(0,0,0,0.2) inset;
+    margin:5px;
+    background: transparent;
+    font-size: 30px;
+    color:#fff;
+    cursor: pointer;
+}
+form #display{
+    display:flex;
+    justify-content: flex-end;
+    margin: 5px 0;
+}
+form #display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    background: transparent;
+}
+#display :hover{
+    color: white;
+    background: #3a4452;
+}
+.cal form input:hover{
+    color:rgb(131, 190, 192);
+    background-color: rgb(36, 84, 124);
+}
+.cal form input:active{
+    color:black;
+    background-color:white;
+}
+form .bot input{
+    width:45%;
+    border-radius: 5%;
+}
+#operator{
+    color: rgb(0, 255, 85)
+}
